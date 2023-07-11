@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.palooca</groupId>
+    <artifactId>palooca</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <name>palooca</name>
+
+    <properties>
+        <java.version>8</java.version>
+        <openoffice.libs.version>3.2.1</openoffice.libs.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.openoffice</groupId>
+            <artifactId>juh</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.openoffice</groupId>
+            <artifactId>unoil</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.olap4j</groupId>
+            <artifactId>olap4j</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jdesktop</groupId>
+            <artifactId>appframework</artifactId>
+            <version>1.0.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.16</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.3.172</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.olap4j</groupId>
+            <artifactId>olap4j</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jdom</groupId>
+            <artifactId>jdom2</artifactId>
+            <version>2.0.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>groupId</groupId>
+            <artifactId>swing-layout</artifactId>
+            <version>1.0.4</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/swing-layout-1.0.4.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>org.olap4j</groupId>
+            <artifactId>olap4j-xmla</artifactId>
+            <version>1.2.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/olap4j-xmla-1.2.0-SNAPSHOT.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.proclos</groupId>
+            <artifactId>palojlib</artifactId>
+            <version>5.2-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/palojlib-5.1.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>PalOOCa_IDL_types</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/PalOOCa_IDL_types.jar</systemPath>
+        </dependency>
+
+    </dependencies>
+
+
+</project>
